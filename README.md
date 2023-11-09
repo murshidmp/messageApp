@@ -35,7 +35,8 @@ A simple web application that allows users to post and view messages.
 
 ### Configuration
 
-1. Set up your MongoDB database and update the connection string in `server.js`.
+1. Create a new file named `.env` in the root of your project.
+2. Add your MongoDB connection string to `.env`:
 
 ### Running the Application
 
