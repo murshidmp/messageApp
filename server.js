@@ -3,9 +3,10 @@ const mongoose = require("mongoose");
 const app = express();
 const PORT = process.env.PORT || 5000;
 const cors = require("cors");
+require('dotenv').config();
 
 mongoose.connect(
-  "mongodb+srv://murshid:murshid123@nodeexpressproject.caxxpbf.mongodb.net/MESSAGE_DB?retryWrites=true&w=majority"
+  process.env.MONGODB_URI
 );
 
 // Define Message schema

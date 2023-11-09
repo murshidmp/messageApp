@@ -4,6 +4,7 @@
 node_modules
 client/node_modules
 /home/murshid/Desktop/message_app/client/node_modules
+.env
 
 /.pnp
 .pnp.js
