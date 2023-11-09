@@ -25,11 +25,11 @@ A simple web application that allows users to post and view messages.
 
 1. Clone the repository.
    ```bash
-   git clone https://github.com
+   git clone https://github.com/murshidmp/messageApp.git
    ```
 2. Navigate to the project root and run `npm install` to install dependencies.
     ```bash
-   cd MESSAGE_APP
+   cd messageApp
     npm install
     ```
 
